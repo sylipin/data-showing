@@ -1,0 +1,6 @@
+// 因为是要引入到小程序的，移动端需注意重点--》适配
+
+$mobileDesign: 375;
+@function vw($px) {
+    @return $px / $mobileDesign * 100vw;
+}
